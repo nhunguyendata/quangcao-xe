@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+.banner{
+	width: 980px;
+	height: 90px;
+	position:relative;
+	background-image: url("../images/background.jpg");
+	margin:100px auto;
+	overflow: hidden;
+	
+}
+.logo{
+	position: absolute;
+	top:0;
+	left:0;
+	animation: logo 20s linear infinite;
+	
+}
+@keyframes logo{
+	0%{transform: scale(2)}
+	10%,100%{transform: scale(1)}
+}
+.h2{
+	position: absolute;
+	top: 10px;
+    left: 132px;
+	animation: h2 20s linear infinite;
+	
+}
+@keyframes h2{
+	0%,15%{transform: scale(0)}
+	20%,100%{transform: scale(1)}
+}
+.h3{
+	position: absolute;
+	top: 0px;
+    left: 370px;
+	animation: h3 20s linear infinite;
+	
+}
+@keyframes h3{
+	0%,5%{top:-90px}
+	10%{top:0;transform: rotate(0deg)}
+	15%{top:0;transform: rotate(-5deg)}
+	17%{top:0;transform: rotate(5deg)}
+	19%{top:0;transform: rotate(-2deg)}
+	21%{top:0;transform: rotate(2deg)}
+	23%,100%{top:0;transform: rotate(0deg)}
+}
+.h4{
+	position: absolute;
+	top: 10px;
+    left: 584px;
+	animation: h4 20s linear infinite;
+	
+}
+@keyframes h4{
+	0%,15%{transform: scale(0)}
+	20%,100%{transform: scale(1)}
+}
+.h5{
+	position: absolute;
+	top: 60px;
+    left: 584px;
+	left:700px;
+	animation: h5 20s linear infinite;
+	
+}
+@keyframes h5{
+	0%,15%{opacity: 0;left:700px}
+	25%,100%{opacity: 1;left:584px}
+	
+}
+.h6{
+	position: absolute;
+	top: 16px;
+    left: 812px;
+	animation: h6 20s linear infinite, nhapnhay 1.5s linear infinite
+	
+}
+@keyframes h6{
+	0%,15%{opacity: 0}
+	25%,100%{opacity: 1}
+}
+@keyframes nhapnhay{
+	0%,100%{transform: scale(0.9)}
+	50%{transform: scale(1)}
+}
+.text-light{
+	position: absolute;
+	font-size: 12px;
+	text-decoration: none;
+	bottom: -8px;
+    right: 68px;
+	color: beige;
+}
+
+
+
